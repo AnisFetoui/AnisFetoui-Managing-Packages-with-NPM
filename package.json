@@ -6,14 +6,16 @@
 	"version": "1.0",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git",
+		"body-parser": "^1.15.2",
+		"cookie-parser": "^1.4.3"
 	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
+	"engines": {
+		"node":"4.4.5"
 	}
 }
